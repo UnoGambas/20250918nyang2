@@ -37,11 +37,11 @@ function setup() {
   }
   score = 0;
   gameOver = false;
-  background(245, 200, 220); // 핑크 배경
+  background(245, 200, 100); // 핑크 배경
 }
 
 function draw() {
-  background(245, 200, 220); // 핑크 배경
+  background(245, 200, 100); // 핑크 배경
   drawBricks();
   drawPaddle();
   drawBall();
