@@ -1,4 +1,3 @@
-
 // 게임 변수
 let paddle, ball, bricks = [], rows = 5, cols = 8, brickW, brickH, score = 0, gameOver = false;
 
