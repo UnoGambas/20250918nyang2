@@ -9,7 +9,7 @@ function setup() {
     w: width / 5,
     h: height / 40,
     x: width / 2 - width / 10,
-    y: height - height / 15,
+    y: height - height / 7, // 더 위로 조정
     speed: 12
   };
   ball = {
