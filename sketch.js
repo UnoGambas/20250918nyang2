@@ -87,8 +87,8 @@ function drawScore() {
 }
 
 function moveBall() {
-  ball.x += ball.dx;
-  ball.y += ball.dy;
+  ball.x += ball.dx*0.8;
+  ball.y += ball.dy*0.9;
 }
 
 function checkCollisions() {
